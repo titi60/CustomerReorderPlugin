@@ -40,8 +40,8 @@
     "prefer-stable": true,
     "autoload": {
         "psr-4": {
-            "Sylius\\CustomerReorderPlugin\\": "src/",
-            "Tests\\Sylius\\CustomerReorderPlugin\\": "tests/"
+            "Titi60\\CustomerReorderPlugin\\": "src/",
+            "Tests\\Titi60\\CustomerReorderPlugin\\": "tests/"
         }
     },
     "scripts": {
