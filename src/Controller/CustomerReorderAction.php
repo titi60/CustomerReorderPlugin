@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Sylius\CustomerReorderPlugin\Controller;
+namespace Titi60\CustomerReorderPlugin\Controller;
 
 use Nette\InvalidStateException;
 use Sylius\Bundle\CoreBundle\Storage\CartSessionStorage;
@@ -13,7 +13,7 @@ use Sylius\Component\Core\Model\OrderInterface;
 use Sylius\Component\Core\Repository\OrderRepositoryInterface;
 use Sylius\Component\Customer\Context\CustomerContextInterface;
 use Sylius\Component\Order\Context\CartContextInterface;
-use Sylius\CustomerReorderPlugin\Reorder\ReordererInterface;
+use Titi60\CustomerReorderPlugin\Reorder\ReordererInterface;
 use Symfony\Component\HttpFoundation\RedirectResponse;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;

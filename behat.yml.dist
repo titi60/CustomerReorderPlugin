@@ -37,6 +37,6 @@ default:
         FriendsOfBehat\SymfonyExtension:
             bootstrap: tests/Application/config/bootstrap.php
             kernel:
-                class: Tests\Sylius\CustomerReorderPlugin\Application\Kernel
+                class: Tests\Titi60\CustomerReorderPlugin\Application\Kernel
 
         FriendsOfBehat\VariadicExtension: ~

@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Sylius\CustomerReorderPlugin\Checker;
+namespace Titi60\CustomerReorderPlugin\Checker;
 
 use Sylius\Component\Core\Model\CustomerInterface;
 use Sylius\Component\Core\Model\OrderInterface;

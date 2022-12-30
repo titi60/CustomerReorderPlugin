@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Sylius\CustomerReorderPlugin\ReorderEligibility\ResponseProcessing;
+namespace Titi60\CustomerReorderPlugin\ReorderEligibility\ResponseProcessing;
 
 final class EligibilityCheckerFailureResponses
 {

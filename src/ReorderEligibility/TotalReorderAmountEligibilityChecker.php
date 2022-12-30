@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace Sylius\CustomerReorderPlugin\ReorderEligibility;
+namespace Titi60\CustomerReorderPlugin\ReorderEligibility;
 
 use Sylius\Bundle\MoneyBundle\Formatter\MoneyFormatterInterface;
 use Sylius\Component\Core\Model\OrderInterface;
-use Sylius\CustomerReorderPlugin\ReorderEligibility\ResponseProcessing\EligibilityCheckerFailureResponses;
+use Titi60\CustomerReorderPlugin\ReorderEligibility\ResponseProcessing\EligibilityCheckerFailureResponses;
 
 final class TotalReorderAmountEligibilityChecker implements ReorderEligibilityChecker
 {

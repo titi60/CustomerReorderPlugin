@@ -1,6 +1,6 @@
 <?php
 
-use Tests\Sylius\CustomerReorderPlugin\Application\Kernel;
+use Tests\Titi60\CustomerReorderPlugin\Application\Kernel;
 use Symfony\Component\Debug\Debug;
 use Symfony\Component\HttpFoundation\Request;
 

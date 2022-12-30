@@ -2,15 +2,15 @@
 
 declare(strict_types=1);
 
-namespace spec\Sylius\CustomerReorderPlugin\Factory;
+namespace spec\Titi60\CustomerReorderPlugin\Factory;
 
 use PhpSpec\ObjectBehavior;
 use Sylius\Component\Core\Model\ChannelInterface;
 use Sylius\Component\Core\Model\OrderInterface;
 use Sylius\Component\Resource\Factory\FactoryInterface;
-use Sylius\CustomerReorderPlugin\Factory\OrderFactory;
-use Sylius\CustomerReorderPlugin\Factory\OrderFactoryInterface;
-use Sylius\CustomerReorderPlugin\ReorderProcessing\ReorderProcessor;
+use Titi60\CustomerReorderPlugin\Factory\OrderFactory;
+use Titi60\CustomerReorderPlugin\Factory\OrderFactoryInterface;
+use Titi60\CustomerReorderPlugin\ReorderProcessing\ReorderProcessor;
 
 final class OrderFactorySpec extends ObjectBehavior
 {

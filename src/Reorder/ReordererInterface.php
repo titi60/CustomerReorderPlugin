@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Sylius\CustomerReorderPlugin\Reorder;
+namespace Titi60\CustomerReorderPlugin\Reorder;
 
 use Sylius\Component\Core\Model\ChannelInterface;
 use Sylius\Component\Core\Model\CustomerInterface;

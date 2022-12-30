@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace spec\Sylius\CustomerReorderPlugin\Checker;
+namespace spec\Titi60\CustomerReorderPlugin\Checker;
 
 use PhpSpec\ObjectBehavior;
 use Sylius\Component\Core\Model\CustomerInterface;
 use Sylius\Component\Core\Model\OrderInterface;
-use Sylius\CustomerReorderPlugin\Checker\OrderCustomerRelationCheckerInterface;
+use Titi60\CustomerReorderPlugin\Checker\OrderCustomerRelationCheckerInterface;
 
 final class OrderCustomerRelationCheckerSpec extends ObjectBehavior
 {

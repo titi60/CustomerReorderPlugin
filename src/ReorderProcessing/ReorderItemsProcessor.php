@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Sylius\CustomerReorderPlugin\ReorderProcessing;
+namespace Titi60\CustomerReorderPlugin\ReorderProcessing;
 
 use Sylius\Component\Core\Model\OrderInterface;
 use Sylius\Component\Core\Model\OrderItemInterface;

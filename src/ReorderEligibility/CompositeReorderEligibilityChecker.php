@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Sylius\CustomerReorderPlugin\ReorderEligibility;
+namespace Titi60\CustomerReorderPlugin\ReorderEligibility;
 
 use Sylius\Component\Core\Model\OrderInterface;
 use Zend\Stdlib\PriorityQueue;

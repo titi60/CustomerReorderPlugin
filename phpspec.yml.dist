@@ -1,4 +1,4 @@
 suites:
     main:
-        namespace: Sylius\CustomerReorderPlugin
-        psr4_prefix: Sylius\CustomerReorderPlugin
+        namespace: Titi60\CustomerReorderPlugin
+        psr4_prefix: Titi60\CustomerReorderPlugin

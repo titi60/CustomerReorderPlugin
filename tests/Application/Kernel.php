@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Tests\Sylius\CustomerReorderPlugin\Application;
+namespace Tests\Titi60\CustomerReorderPlugin\Application;
 
 use ProxyManager\Proxy\VirtualProxyInterface;
 use PSS\SymfonyMockerContainer\DependencyInjection\MockerContainer;

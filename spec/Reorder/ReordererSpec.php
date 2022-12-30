@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace spec\Sylius\CustomerReorderPlugin\Reorder;
+namespace spec\Titi60\CustomerReorderPlugin\Reorder;
 
 use Doctrine\Common\Collections\ArrayCollection;
 use Doctrine\ORM\EntityManagerInterface;
@@ -15,14 +15,14 @@ use Sylius\Component\Core\Model\OrderItemInterface;
 use Sylius\Component\Core\Model\ProductVariantInterface;
 use Sylius\Component\Core\Model\PromotionInterface;
 use Sylius\Component\Order\Processor\OrderProcessorInterface;
-use Sylius\CustomerReorderPlugin\Checker\OrderCustomerRelationCheckerInterface;
-use Sylius\CustomerReorderPlugin\Factory\OrderFactoryInterface;
-use Sylius\CustomerReorderPlugin\Reorder\Reorderer;
-use Sylius\CustomerReorderPlugin\Reorder\ReordererInterface;
-use Sylius\CustomerReorderPlugin\ReorderEligibility\ReorderEligibilityChecker;
-use Sylius\CustomerReorderPlugin\ReorderEligibility\ReorderEligibilityCheckerResponse;
-use Sylius\CustomerReorderPlugin\ReorderEligibility\ResponseProcessing\EligibilityCheckerFailureResponses;
-use Sylius\CustomerReorderPlugin\ReorderEligibility\ResponseProcessing\ReorderEligibilityCheckerResponseProcessorInterface;
+use Titi60\CustomerReorderPlugin\Checker\OrderCustomerRelationCheckerInterface;
+use Titi60\CustomerReorderPlugin\Factory\OrderFactoryInterface;
+use Titi60\CustomerReorderPlugin\Reorder\Reorderer;
+use Titi60\CustomerReorderPlugin\Reorder\ReordererInterface;
+use Titi60\CustomerReorderPlugin\ReorderEligibility\ReorderEligibilityChecker;
+use Titi60\CustomerReorderPlugin\ReorderEligibility\ReorderEligibilityCheckerResponse;
+use Titi60\CustomerReorderPlugin\ReorderEligibility\ResponseProcessing\EligibilityCheckerFailureResponses;
+use Titi60\CustomerReorderPlugin\ReorderEligibility\ResponseProcessing\ReorderEligibilityCheckerResponseProcessorInterface;
 
 final class ReordererSpec extends ObjectBehavior
 {

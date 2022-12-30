@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Sylius\CustomerReorderPlugin\ReorderEligibility;
+namespace Titi60\CustomerReorderPlugin\ReorderEligibility;
 
 final class ReorderEligibilityConstraintMessageFormatter implements ReorderEligibilityConstraintMessageFormatterInterface
 {

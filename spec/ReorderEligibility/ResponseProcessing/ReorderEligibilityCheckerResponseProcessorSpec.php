@@ -2,13 +2,13 @@
 
 declare(strict_types=1);
 
-namespace spec\Sylius\CustomerReorderPlugin\ReorderEligibility\ResponseProcessing;
+namespace spec\Titi60\CustomerReorderPlugin\ReorderEligibility\ResponseProcessing;
 
 use PhpSpec\ObjectBehavior;
-use Sylius\CustomerReorderPlugin\ReorderEligibility\ReorderEligibilityCheckerResponse;
-use Sylius\CustomerReorderPlugin\ReorderEligibility\ResponseProcessing\EligibilityCheckerFailureResponses;
-use Sylius\CustomerReorderPlugin\ReorderEligibility\ResponseProcessing\ReorderEligibilityCheckerResponseProcessor;
-use Sylius\CustomerReorderPlugin\ReorderEligibility\ResponseProcessing\ReorderEligibilityCheckerResponseProcessorInterface;
+use Titi60\CustomerReorderPlugin\ReorderEligibility\ReorderEligibilityCheckerResponse;
+use Titi60\CustomerReorderPlugin\ReorderEligibility\ResponseProcessing\EligibilityCheckerFailureResponses;
+use Titi60\CustomerReorderPlugin\ReorderEligibility\ResponseProcessing\ReorderEligibilityCheckerResponseProcessor;
+use Titi60\CustomerReorderPlugin\ReorderEligibility\ResponseProcessing\ReorderEligibilityCheckerResponseProcessorInterface;
 use Symfony\Component\HttpFoundation\Session\Flash\FlashBagInterface;
 use Symfony\Component\HttpFoundation\Session\Session;
 

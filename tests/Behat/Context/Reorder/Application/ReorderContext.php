@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Tests\Sylius\CustomerReorderPlugin\Behat\Context\Reorder\Application;
+namespace Tests\Titi60\CustomerReorderPlugin\Behat\Context\Reorder\Application;
 
 use Behat\Behat\Context\Context;
 use Nette\InvalidStateException;
@@ -10,7 +10,7 @@ use Sylius\Component\Core\Model\CustomerInterface;
 use Sylius\Component\Core\Model\OrderInterface;
 use Sylius\Component\Core\Repository\CustomerRepositoryInterface;
 use Sylius\Component\Core\Repository\OrderRepositoryInterface;
-use Sylius\CustomerReorderPlugin\Reorder\ReordererInterface;
+use Titi60\CustomerReorderPlugin\Reorder\ReordererInterface;
 
 final class ReorderContext implements Context
 {

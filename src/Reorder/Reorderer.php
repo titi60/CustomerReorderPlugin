@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Sylius\CustomerReorderPlugin\Reorder;
+namespace Titi60\CustomerReorderPlugin\Reorder;
 
 use Doctrine\ORM\EntityManagerInterface;
 use Nette\InvalidStateException;
@@ -10,10 +10,10 @@ use Sylius\Component\Core\Model\ChannelInterface;
 use Sylius\Component\Core\Model\CustomerInterface;
 use Sylius\Component\Core\Model\OrderInterface;
 use Sylius\Component\Order\Processor\OrderProcessorInterface;
-use Sylius\CustomerReorderPlugin\Checker\OrderCustomerRelationCheckerInterface;
-use Sylius\CustomerReorderPlugin\Factory\OrderFactoryInterface;
-use Sylius\CustomerReorderPlugin\ReorderEligibility\ReorderEligibilityChecker;
-use Sylius\CustomerReorderPlugin\ReorderEligibility\ResponseProcessing\ReorderEligibilityCheckerResponseProcessorInterface;
+use Titi60\CustomerReorderPlugin\Checker\OrderCustomerRelationCheckerInterface;
+use Titi60\CustomerReorderPlugin\Factory\OrderFactoryInterface;
+use Titi60\CustomerReorderPlugin\ReorderEligibility\ReorderEligibilityChecker;
+use Titi60\CustomerReorderPlugin\ReorderEligibility\ResponseProcessing\ReorderEligibilityCheckerResponseProcessorInterface;
 
 final class Reorderer implements ReordererInterface
 {

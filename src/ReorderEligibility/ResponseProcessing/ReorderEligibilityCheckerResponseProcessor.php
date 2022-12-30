@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Sylius\CustomerReorderPlugin\ReorderEligibility\ResponseProcessing;
+namespace Titi60\CustomerReorderPlugin\ReorderEligibility\ResponseProcessing;
 
-use Sylius\CustomerReorderPlugin\ReorderEligibility\ReorderEligibilityCheckerResponse;
+use Titi60\CustomerReorderPlugin\ReorderEligibility\ReorderEligibilityCheckerResponse;
 use Symfony\Component\HttpFoundation\Session\Session;
 
 final class ReorderEligibilityCheckerResponseProcessor implements ReorderEligibilityCheckerResponseProcessorInterface

@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace spec\Sylius\CustomerReorderPlugin\ReorderProcessing;
+namespace spec\Titi60\CustomerReorderPlugin\ReorderProcessing;
 
 use Doctrine\Common\Collections\ArrayCollection;
 use PhpSpec\ObjectBehavior;
@@ -13,8 +13,8 @@ use Sylius\Component\Inventory\Checker\AvailabilityCheckerInterface;
 use Sylius\Component\Order\Modifier\OrderItemQuantityModifierInterface;
 use Sylius\Component\Order\Modifier\OrderModifierInterface;
 use Sylius\Component\Resource\Factory\FactoryInterface;
-use Sylius\CustomerReorderPlugin\ReorderProcessing\ReorderItemsProcessor;
-use Sylius\CustomerReorderPlugin\ReorderProcessing\ReorderProcessor;
+use Titi60\CustomerReorderPlugin\ReorderProcessing\ReorderItemsProcessor;
+use Titi60\CustomerReorderPlugin\ReorderProcessing\ReorderProcessor;
 
 final class ReorderItemsProcessorSpec extends ObjectBehavior
 {

@@ -24,7 +24,7 @@
 
     ```php
     $bundles = [
-        new \Sylius\CustomerReorderPlugin\SyliusCustomerReorderPlugin(),
+        new \Titi60\CustomerReorderPlugin\SyliusCustomerReorderPlugin(),
     ];
     ```
 

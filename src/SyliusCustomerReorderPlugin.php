@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace Sylius\CustomerReorderPlugin;
+namespace Titi60\CustomerReorderPlugin;
 
 use Sylius\Bundle\CoreBundle\Application\SyliusPluginTrait;
-use Sylius\CustomerReorderPlugin\DependencyInjection\Compiler\RegisterEligibilityCheckersPass;
-use Sylius\CustomerReorderPlugin\DependencyInjection\Compiler\RegisterReorderProcessorsPass;
+use Titi60\CustomerReorderPlugin\DependencyInjection\Compiler\RegisterEligibilityCheckersPass;
+use Titi60\CustomerReorderPlugin\DependencyInjection\Compiler\RegisterReorderProcessorsPass;
 use Symfony\Component\DependencyInjection\ContainerBuilder;
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 

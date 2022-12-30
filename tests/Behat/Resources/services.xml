@@ -2,9 +2,9 @@
 
 <container xmlns="http://symfony.com/schema/dic/services" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://symfony.com/schema/dic/services http://symfony.com/schema/dic/services/services-1.0.xsd">
     <services>
-        <service id="sylius_customer_reorder.behat.context.ui.reorder" class="Tests\Sylius\CustomerReorderPlugin\Behat\Context\Reorder\Ui\ReorderContext" public="true">
+        <service id="sylius_customer_reorder.behat.context.ui.reorder" class="Tests\Titi60\CustomerReorderPlugin\Behat\Context\Reorder\Ui\ReorderContext" public="true">
             <argument type="service" id="behat.mink.default_session" />
-            <argument type="service" id="Sylius\CustomerReorderPlugin\ReorderEligibility\ReorderEligibilityConstraintMessageFormatter"/>
+            <argument type="service" id="Titi60\CustomerReorderPlugin\ReorderEligibility\ReorderEligibilityConstraintMessageFormatter"/>
             <argument type="service" id="sylius_customer_reorder.behat.page.shop.checkout.select_shipping" />
             <argument type="service" id="sylius_customer_reorder.behat.page.shop.checkout.select_payment" />
             <argument type="service" id="sylius.behat.page.shop.checkout.address"/>
@@ -14,15 +14,15 @@
             <argument type="service" id="doctrine.orm.entity_manager" />
         </service>
 
-        <service id="sylius_customer_reorder.behat.context.application.reorder" class="Tests\Sylius\CustomerReorderPlugin\Behat\Context\Reorder\Application\ReorderContext" public="true">
+        <service id="sylius_customer_reorder.behat.context.application.reorder" class="Tests\Titi60\CustomerReorderPlugin\Behat\Context\Reorder\Application\ReorderContext" public="true">
             <argument type="service" id="sylius.repository.order" />
             <argument type="service" id="sylius.repository.customer" />
-            <argument type="service" id="Sylius\CustomerReorderPlugin\Reorder\Reorderer" />
+            <argument type="service" id="Titi60\CustomerReorderPlugin\Reorder\Reorderer" />
         </service>
 
-        <service id="sylius_customer_reorder.behat.page.shop.checkout.select_shipping" class="Tests\Sylius\CustomerReorderPlugin\Behat\Page\Checkout\SelectShippingPage" parent="sylius.behat.page.shop.checkout.select_shipping" public="false" />
-        <service id="sylius_customer_reorder.behat.page.shop.checkout.select_payment" class="Tests\Sylius\CustomerReorderPlugin\Behat\Page\Checkout\SelectPaymentPage" parent="sylius.behat.page.shop.checkout.select_payment" public="false" />
-        <service id="sylius_customer_reorder.behat.page.shop.checkout" class="Tests\Sylius\CustomerReorderPlugin\Behat\Page\Cart\SummaryPage" parent="sylius.behat.page.shop.cart_summary" public="false" />
-        <service id="sylius_customer_reorder.behat.page.shop.account.order.index" class="Tests\Sylius\CustomerReorderPlugin\Behat\Page\Order\IndexPage" parent="sylius.behat.page.shop.account.order.index" public="false" />
+        <service id="sylius_customer_reorder.behat.page.shop.checkout.select_shipping" class="Tests\Titi60\CustomerReorderPlugin\Behat\Page\Checkout\SelectShippingPage" parent="sylius.behat.page.shop.checkout.select_shipping" public="false" />
+        <service id="sylius_customer_reorder.behat.page.shop.checkout.select_payment" class="Tests\Titi60\CustomerReorderPlugin\Behat\Page\Checkout\SelectPaymentPage" parent="sylius.behat.page.shop.checkout.select_payment" public="false" />
+        <service id="sylius_customer_reorder.behat.page.shop.checkout" class="Tests\Titi60\CustomerReorderPlugin\Behat\Page\Cart\SummaryPage" parent="sylius.behat.page.shop.cart_summary" public="false" />
+        <service id="sylius_customer_reorder.behat.page.shop.account.order.index" class="Tests\Titi60\CustomerReorderPlugin\Behat\Page\Order\IndexPage" parent="sylius.behat.page.shop.account.order.index" public="false" />
     </services>
 </container>

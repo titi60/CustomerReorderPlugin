@@ -2,18 +2,18 @@
 
 declare(strict_types=1);
 
-namespace spec\Sylius\CustomerReorderPlugin\ReorderEligibility;
+namespace spec\Titi60\CustomerReorderPlugin\ReorderEligibility;
 
 use Doctrine\Common\Collections\ArrayCollection;
 use PhpSpec\ObjectBehavior;
 use Sylius\Component\Core\Model\OrderInterface;
 use Sylius\Component\Core\Model\OrderItemInterface;
 use Sylius\Component\Core\Model\PromotionInterface;
-use Sylius\CustomerReorderPlugin\ReorderEligibility\ReorderEligibilityChecker;
-use Sylius\CustomerReorderPlugin\ReorderEligibility\ReorderEligibilityCheckerResponse;
-use Sylius\CustomerReorderPlugin\ReorderEligibility\ReorderEligibilityConstraintMessageFormatterInterface;
-use Sylius\CustomerReorderPlugin\ReorderEligibility\ReorderPromotionsEligibilityChecker;
-use Sylius\CustomerReorderPlugin\ReorderEligibility\ResponseProcessing\EligibilityCheckerFailureResponses;
+use Titi60\CustomerReorderPlugin\ReorderEligibility\ReorderEligibilityChecker;
+use Titi60\CustomerReorderPlugin\ReorderEligibility\ReorderEligibilityCheckerResponse;
+use Titi60\CustomerReorderPlugin\ReorderEligibility\ReorderEligibilityConstraintMessageFormatterInterface;
+use Titi60\CustomerReorderPlugin\ReorderEligibility\ReorderPromotionsEligibilityChecker;
+use Titi60\CustomerReorderPlugin\ReorderEligibility\ResponseProcessing\EligibilityCheckerFailureResponses;
 
 final class ReorderPromotionsEligibilityCheckerSpec extends ObjectBehavior
 {

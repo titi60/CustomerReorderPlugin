@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Tests\Sylius\CustomerReorderPlugin\Behat\Page\Order;
+namespace Tests\Titi60\CustomerReorderPlugin\Behat\Page\Order;
 
 use Behat\Mink\Element\NodeElement;
 use \Sylius\Behat\Page\Shop\Account\Order\IndexPage as BaseIndexPage;

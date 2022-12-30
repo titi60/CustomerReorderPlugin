@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace spec\Sylius\CustomerReorderPlugin\ReorderEligibility;
+namespace spec\Titi60\CustomerReorderPlugin\ReorderEligibility;
 
 use PhpSpec\ObjectBehavior;
-use Sylius\CustomerReorderPlugin\ReorderEligibility\ReorderEligibilityConstraintMessageFormatter;
-use Sylius\CustomerReorderPlugin\ReorderEligibility\ReorderEligibilityConstraintMessageFormatterInterface;
+use Titi60\CustomerReorderPlugin\ReorderEligibility\ReorderEligibilityConstraintMessageFormatter;
+use Titi60\CustomerReorderPlugin\ReorderEligibility\ReorderEligibilityConstraintMessageFormatterInterface;
 
 final class ReorderEligibilityConstraintMessageFormatterSpec extends ObjectBehavior
 {

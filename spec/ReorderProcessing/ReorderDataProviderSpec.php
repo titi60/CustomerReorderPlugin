@@ -2,14 +2,14 @@
 
 declare(strict_types=1);
 
-namespace spec\Sylius\CustomerReorderPlugin\ReorderProcessing;
+namespace spec\Titi60\CustomerReorderPlugin\ReorderProcessing;
 
 use PhpSpec\ObjectBehavior;
 use Sylius\Component\Core\Model\AddressInterface;
 use Sylius\Component\Core\Model\CustomerInterface;
 use Sylius\Component\Core\Model\OrderInterface;
-use Sylius\CustomerReorderPlugin\ReorderProcessing\ReorderDataProvider;
-use Sylius\CustomerReorderPlugin\ReorderProcessing\ReorderProcessor;
+use Titi60\CustomerReorderPlugin\ReorderProcessing\ReorderDataProvider;
+use Titi60\CustomerReorderPlugin\ReorderProcessing\ReorderProcessor;
 
 final class ReorderDataProviderSpec extends ObjectBehavior
 {

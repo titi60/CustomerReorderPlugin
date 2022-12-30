@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Tests\Sylius\CustomerReorderPlugin\Behat\Page\Checkout;
+namespace Tests\Titi60\CustomerReorderPlugin\Behat\Page\Checkout;
 
 use \Sylius\Behat\Page\Shop\Checkout\SelectPaymentPage as BaseSelectPaymentPage;
 

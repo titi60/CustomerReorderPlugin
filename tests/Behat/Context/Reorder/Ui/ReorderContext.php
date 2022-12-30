@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Tests\Sylius\CustomerReorderPlugin\Behat\Context\Reorder\Ui;
+namespace Tests\Titi60\CustomerReorderPlugin\Behat\Context\Reorder\Ui;
 
 use Behat\Behat\Context\Context;
 use Behat\Mink\Session;
@@ -11,11 +11,11 @@ use Sylius\Behat\Page\Shop\Checkout\AddressPageInterface;
 use Sylius\Component\Core\Model\ProductInterface;
 use Sylius\Component\Core\Model\ProductVariantInterface;
 use Sylius\Component\Product\Resolver\ProductVariantResolverInterface;
-use Sylius\CustomerReorderPlugin\ReorderEligibility\ReorderEligibilityConstraintMessageFormatterInterface;
-use Tests\Sylius\CustomerReorderPlugin\Behat\Page\Cart\SummaryPageInterface;
-use Tests\Sylius\CustomerReorderPlugin\Behat\Page\Checkout\SelectPaymentPageInterface;
-use Tests\Sylius\CustomerReorderPlugin\Behat\Page\Checkout\SelectShippingPageInterface;
-use Tests\Sylius\CustomerReorderPlugin\Behat\Page\Order\IndexPageInterface;
+use Titi60\CustomerReorderPlugin\ReorderEligibility\ReorderEligibilityConstraintMessageFormatterInterface;
+use Tests\Titi60\CustomerReorderPlugin\Behat\Page\Cart\SummaryPageInterface;
+use Tests\Titi60\CustomerReorderPlugin\Behat\Page\Checkout\SelectPaymentPageInterface;
+use Tests\Titi60\CustomerReorderPlugin\Behat\Page\Checkout\SelectShippingPageInterface;
+use Tests\Titi60\CustomerReorderPlugin\Behat\Page\Order\IndexPageInterface;
 use Webmozart\Assert\Assert;
 
 final class ReorderContext implements Context

@@ -2,15 +2,15 @@
 
 declare(strict_types=1);
 
-namespace spec\Sylius\CustomerReorderPlugin\ReorderEligibility;
+namespace spec\Titi60\CustomerReorderPlugin\ReorderEligibility;
 
 use PhpSpec\ObjectBehavior;
 use Sylius\Bundle\MoneyBundle\Formatter\MoneyFormatterInterface;
 use Sylius\Component\Core\Model\OrderInterface;
-use Sylius\CustomerReorderPlugin\ReorderEligibility\ReorderEligibilityChecker;
-use Sylius\CustomerReorderPlugin\ReorderEligibility\ReorderEligibilityCheckerResponse;
-use Sylius\CustomerReorderPlugin\ReorderEligibility\ResponseProcessing\EligibilityCheckerFailureResponses;
-use Sylius\CustomerReorderPlugin\ReorderEligibility\TotalReorderAmountEligibilityChecker;
+use Titi60\CustomerReorderPlugin\ReorderEligibility\ReorderEligibilityChecker;
+use Titi60\CustomerReorderPlugin\ReorderEligibility\ReorderEligibilityCheckerResponse;
+use Titi60\CustomerReorderPlugin\ReorderEligibility\ResponseProcessing\EligibilityCheckerFailureResponses;
+use Titi60\CustomerReorderPlugin\ReorderEligibility\TotalReorderAmountEligibilityChecker;
 
 final class TotalReorderAmountEligibilityCheckerSpec extends ObjectBehavior
 {
